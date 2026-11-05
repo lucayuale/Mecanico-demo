@@ -1,0 +1,223 @@
+{
+  "business": {
+    "name": "Nuevo negocio",
+    "tagline": "",
+    "demoLabel": "PLANTILLA SIN PERSONALIZAR — Completar antes de publicar",
+    "copyrightYear": "",
+    "established": ""
+  },
+  "seo": {
+    "title": "Nuevo negocio",
+    "description": "Completar con la descripción real del negocio antes de publicar.",
+    "canonicalUrl": "",
+    "businessType": "LocalBusiness",
+    "includeStructuredData": false
+  },
+  "language": {
+    "default": "es",
+    "available": [
+      "es",
+      "en"
+    ],
+    "numberLocale": "es-AR"
+  },
+  "brand": {
+    "logoImage": "",
+    "colors": {},
+    "favicon": ""
+  },
+  "images": {
+    "hero": "assets/placeholder.svg",
+    "heroAlt": {
+      "es": "Imagen de ejemplo del negocio",
+      "en": "Business image placeholder"
+    },
+    "manifesto": "assets/placeholder.svg",
+    "gallery": [
+      {
+        "src": "assets/placeholder.svg",
+        "large": "assets/placeholder.svg",
+        "alt": {
+          "es": "Reemplazar por una fotografía del negocio",
+          "en": "Replace with a business photograph"
+        },
+        "caption": {
+          "es": "Imagen por completar",
+          "en": "Image to replace"
+        }
+      }
+    ]
+  },
+  "businessDetails": {
+    "address": {
+      "es": "Completar dirección",
+      "en": "Add business address"
+    },
+    "addressNote": {
+      "es": "",
+      "en": ""
+    },
+    "hoursNote": {
+      "es": "Completar horarios reales",
+      "en": "Add actual opening hours"
+    },
+    "hours": []
+  },
+  "contact": {
+    "phone": "",
+    "email": "",
+    "whatsapp": "",
+    "socials": []
+  },
+  "booking": {
+    "url": "",
+    "mode": "modal"
+  },
+  "services": [
+    {
+      "id": "servicio-ejemplo",
+      "title": {
+        "es": "Servicio por completar",
+        "en": "Service to customize"
+      },
+      "description": {
+        "es": "Reemplazar por la descripción real.",
+        "en": "Replace with the actual description."
+      },
+      "duration": {
+        "es": "",
+        "en": ""
+      },
+      "price": 0,
+      "currency": "USD"
+    }
+  ],
+  "serviceDisplay": {
+    "price": false,
+    "duration": false
+  },
+  "actions": {
+    "basic": {
+      "primary": {
+        "type": "section",
+        "target": "#visit-card",
+        "label": {
+          "es": "CONTACTANOS",
+          "en": "GET IN TOUCH"
+        }
+      },
+      "manifesto": {
+        "type": "section",
+        "target": "#visit-card",
+        "label": {
+          "es": "CONTACTANOS",
+          "en": "GET IN TOUCH"
+        }
+      },
+      "visit": {
+        "type": "section",
+        "target": "#visit-card",
+        "label": {
+          "es": "CONTACTANOS",
+          "en": "GET IN TOUCH"
+        }
+      }
+    }
+  },
+  "translations": {
+    "en": {
+      "heroEyebrow": "WELCOME TO YOUR BUSINESS",
+      "heroLine1": "YOUR",
+      "heroLine2": "BUSINESS.",
+      "heroLine3": "Your identity.",
+      "heroDescription": "Replace this description with what makes the business special.",
+      "heroBooking": "BOOK AN APPOINTMENT",
+      "heroBasic": "GET IN TOUCH",
+      "heroBottomLeft": "QUALITY · CARE · EXPERIENCE",
+      "introEyebrow": "ABOUT THE BUSINESS",
+      "introTitleFirst": "THE",
+      "introTitleSecond": "STORY",
+      "introTitleEm": "BEHIND IT.",
+      "introLead": "Introduce the business and its team here.",
+      "introBody": "Describe the experience, approach and people behind the business. Replace this sample before publishing.",
+      "discoverStyle": "EXPLORE OUR WORK",
+      "value1": "QUALITY",
+      "value2": "CARE",
+      "value3": "EXPERIENCE",
+      "servicesEyebrow": "WHAT WE OFFER",
+      "servicesTitleFirst": "OUR",
+      "servicesTitleEm": "SERVICES.",
+      "servicesCaption": "Add the real services and descriptions for this business.",
+      "samplePrices": "Uncustomized example. Complete all business details before publishing.",
+      "galleryEyebrow": "OUR WORK",
+      "galleryTitleFirst": "A CLOSER",
+      "galleryTitleEm": "LOOK.",
+      "galleryNote": "Replace the placeholder images with authorized business photos.",
+      "manifestoEyebrow": "MADE FOR YOUR BUSINESS",
+      "manifestoTitleFirst": "LET US",
+      "manifestoTitleEm": "WELCOME YOU.",
+      "manifestoBasic": "CONTACT THE BUSINESS",
+      "manifestoBooking": "BOOK AN APPOINTMENT",
+      "visitEyebrow": "VISIT US",
+      "visitTitleFirst": "YOUR NEXT",
+      "visitTitleEm": "EXPERIENCE",
+      "visitTitleLast": "STARTS HERE.",
+      "visitDescription": "Add the address, opening hours and contact details for the business.",
+      "visitBasic": "GET IN TOUCH",
+      "visitBooking": "BOOK YOUR VISIT",
+      "visitCardBottom": "WE LOOK FORWARD TO SEEING YOU",
+      "heroImageAlt": "Business image placeholder",
+      "footerDisclaimer": "UNCUSTOMIZED TEMPLATE",
+      "establishedLabel": "EST.",
+      "bookNow": "BOOK AN APPOINTMENT"
+    },
+    "es": {
+      "heroEyebrow": "BIENVENIDOS A TU NEGOCIO",
+      "heroLine1": "TU",
+      "heroLine2": "NEGOCIO.",
+      "heroLine3": "Tu identidad.",
+      "heroDescription": "Reemplazá esta descripción por lo que hace especial al negocio.",
+      "heroBooking": "RESERVAR TURNO",
+      "heroBasic": "CONTACTANOS",
+      "heroBottomLeft": "CALIDAD · ATENCIÓN · EXPERIENCIA",
+      "introEyebrow": "SOBRE EL NEGOCIO",
+      "introTitleFirst": "LA",
+      "introTitleSecond": "HISTORIA",
+      "introTitleEm": "DEL NEGOCIO.",
+      "introLead": "Presentá aquí al negocio y a su equipo.",
+      "introBody": "Describí la experiencia, la forma de trabajar y las personas del negocio. Reemplazá este ejemplo antes de publicar.",
+      "discoverStyle": "CONOCÉ NUESTRO TRABAJO",
+      "value1": "CALIDAD",
+      "value2": "ATENCIÓN",
+      "value3": "EXPERIENCIA",
+      "servicesEyebrow": "QUÉ OFRECEMOS",
+      "servicesTitleFirst": "NUESTROS",
+      "servicesTitleEm": "SERVICIOS.",
+      "servicesCaption": "Agregá los servicios y descripciones reales del negocio.",
+      "samplePrices": "Ejemplo sin personalizar. Completá todos los datos del negocio antes de publicar.",
+      "galleryEyebrow": "NUESTRO TRABAJO",
+      "galleryTitleFirst": "UNA MIRADA",
+      "galleryTitleEm": "DE CERCA.",
+      "galleryNote": "Reemplazá las imágenes de ejemplo por fotografías autorizadas del negocio.",
+      "manifestoEyebrow": "PENSADO PARA TU NEGOCIO",
+      "manifestoTitleFirst": "QUEREMOS",
+      "manifestoTitleEm": "CONOCERTE.",
+      "manifestoBasic": "CONTACTAR AL NEGOCIO",
+      "manifestoBooking": "RESERVAR TURNO",
+      "visitEyebrow": "VISITANOS",
+      "visitTitleFirst": "TU PRÓXIMA",
+      "visitTitleEm": "EXPERIENCIA",
+      "visitTitleLast": "EMPIEZA ACÁ.",
+      "visitDescription": "Agregá dirección, horarios y datos de contacto del negocio.",
+      "visitBasic": "CONTACTANOS",
+      "visitBooking": "RESERVÁ TU VISITA",
+      "visitCardBottom": "TE ESPERAMOS",
+      "heroImageAlt": "Imagen de ejemplo del negocio",
+      "footerDisclaimer": "PLANTILLA SIN PERSONALIZAR",
+      "establishedLabel": "DESDE",
+      "bookNow": "RESERVAR TURNO"
+    }
+  },
+  "mode": "basic",
+  "design": "base"
+}

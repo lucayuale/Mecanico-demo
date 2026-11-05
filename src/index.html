@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="{{LANG}}">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="{{SEO_THEME_COLOR}}" />
+  <meta name="description" content="{{SEO_DESCRIPTION}}" id="meta-description" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="{{SEO_TITLE}}" />
+  <meta property="og:description" content="{{SEO_DESCRIPTION}}" />
+  <!-- VYB-OPTIONAL-SEO -->
+  <title>{{SEO_TITLE}}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Big+Shoulders+Display:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="config.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip"></a>
+  <div class="demo-ribbon" id="demo-ribbon" hidden><span class="ribbon-diamond" aria-hidden="true">◆</span><span data-business-demo></span><span class="ribbon-diamond" aria-hidden="true">◆</span></div>
+
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" id="brand-link" aria-label="Home">
+      <span class="brand-icon" id="brand-icon" aria-hidden="true"><span data-business-initial></span></span>
+      <span class="brand-type"><strong data-business-name></strong><small data-business-tagline></small></span>
+    </a>
+    <nav class="main-nav" id="main-nav" aria-label="Primary navigation">
+      <a href="#story" data-i18n="navAbout"></a>
+      <a href="#services" data-i18n="navServices"></a>
+      <a href="#gallery" data-i18n="navGallery"></a>
+      <a href="#visit" data-i18n="navVisit"></a>
+    </nav>
+    <div class="header-actions">
+      <button class="lang-toggle" id="lang-toggle" type="button" aria-label="Cambiar idioma a español">ES <span aria-hidden="true">↗</span></button>
+      <div id="header-booking-action"></div>
+      <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="main-nav"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" data-header-theme="dark" aria-labelledby="hero-title">
+      <div class="hero-image" id="hero-image" role="img" aria-label=""></div>
+      <div class="hero-vignette"></div>
+      <div class="hero-content container">
+        <p class="eyebrow hero-eyebrow reveal"><span class="tiny-diamond" aria-hidden="true">◆</span><span data-i18n="heroEyebrow"></span></p>
+        <h1 id="hero-title" class="reveal"><span data-i18n="heroLine1"></span><br/><span data-i18n="heroLine2"></span><br/><em data-i18n="heroLine3"></em></h1>
+        <p class="hero-description reveal" data-i18n="heroDescription"></p>
+        <div class="hero-actions reveal"><div id="hero-primary-action"></div><a class="text-link" href="#services"><span data-i18n="exploreServices"></span><span aria-hidden="true">↓</span></a></div>
+      </div>
+      <div class="hero-bottom"><span data-i18n="heroBottomLeft"></span><span class="scroll-hint"><span data-i18n="scrollToExplore"></span><span class="scroll-line" aria-hidden="true"></span></span><span id="established" hidden><span data-i18n="establishedLabel"></span> <span data-business-year></span></span></div>
+    </section>
+
+    <section class="intro section-pad" data-header-theme="light" id="story" aria-labelledby="intro-title">
+      <div class="container intro-grid">
+        <div class="intro-lead reveal"><p class="eyebrow dark-eyebrow"><span class="section-number">01 /</span><span data-i18n="introEyebrow"></span></p><h2 id="intro-title" class="display-title"><span data-i18n="introTitleFirst"></span><br/><span data-i18n="introTitleSecond"></span> <em data-i18n="introTitleEm"></em></h2></div>
+        <div class="intro-copy reveal"><span class="ornament" aria-hidden="true">✳</span><p class="lead-copy" data-i18n="introLead"></p><p class="body-copy" data-i18n="introBody"></p><a href="#gallery" class="inline-arrow"><span data-i18n="discoverStyle"></span><span aria-hidden="true">↗</span></a></div>
+      </div>
+      <div class="values-line container" aria-label="Our values"><span data-i18n="value1"></span><span class="values-cross" aria-hidden="true">✦</span><span data-i18n="value2"></span><span class="values-cross" aria-hidden="true">✦</span><span data-i18n="value3"></span></div>
+    </section>
+
+    <section class="services section-pad" data-header-theme="dark" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <div class="section-heading heading-split reveal"><div><p class="eyebrow"><span class="section-number">02 /</span><span data-i18n="servicesEyebrow"></span></p><h2 id="services-title" class="display-title light-title"><span data-i18n="servicesTitleFirst"></span> <em data-i18n="servicesTitleEm"></em></h2></div><p class="section-caption" data-i18n="servicesCaption"></p></div>
+        <div class="service-list" id="service-list"></div>
+        <p class="sample-note" id="sample-price-note" data-i18n="samplePrices"></p>
+      </div>
+    </section>
+
+    <section class="lookbook section-pad" data-header-theme="light" id="gallery" aria-labelledby="gallery-title">
+      <div class="container">
+        <div class="section-heading gallery-heading reveal"><div><p class="eyebrow dark-eyebrow"><span class="section-number">03 /</span><span data-i18n="galleryEyebrow"></span></p><h2 id="gallery-title" class="display-title"><span data-i18n="galleryTitleFirst"></span><br/><em data-i18n="galleryTitleEm"></em></h2></div><p class="gallery-side-note" data-i18n="galleryNote"></p></div>
+        <div class="gallery-grid" id="gallery-grid"></div>
+      </div>
+    </section>
+
+    <section class="manifesto" data-header-theme="dark" aria-labelledby="manifesto-title">
+      <div class="manifesto-image" id="manifesto-image"></div><div class="manifesto-shade"></div>
+      <div class="manifesto-content container reveal"><p class="eyebrow"><span data-i18n="manifestoEyebrow"></span></p><h2 id="manifesto-title" class="manifesto-title"><span data-i18n="manifestoTitleFirst"></span><br/><em data-i18n="manifestoTitleEm"></em></h2><div id="manifesto-primary-action"></div></div>
+    </section>
+
+    <section class="visit section-pad" data-header-theme="light" id="visit" aria-labelledby="visit-title">
+      <div class="container visit-grid">
+        <div class="visit-left reveal"><p class="eyebrow dark-eyebrow"><span class="section-number">04 /</span><span data-i18n="visitEyebrow"></span></p><h2 id="visit-title" class="display-title"><span data-i18n="visitTitleFirst"></span><br/><em data-i18n="visitTitleEm"></em><br/><span data-i18n="visitTitleLast"></span></h2><p data-i18n="visitDescription"></p><div id="visit-primary-action"></div></div>
+        <div class="visit-card reveal" id="visit-card">
+          <div class="visit-card-header"><span data-business-monogram></span><span class="sparkle" aria-hidden="true">✳</span></div>
+          <div class="visit-card-block" id="location-block"><span class="mini-label" data-i18n="locationLabel"></span><strong id="business-address"></strong><small id="business-address-note"></small></div>
+          <div class="visit-card-block" id="hours-block"><span class="mini-label" data-i18n="hoursLabel"></span><div id="hours-list"></div><small class="card-disclaimer" id="hours-note"></small></div>
+          <div class="visit-card-block contact-block" id="contact-block" hidden><span class="mini-label" data-i18n="contactLabel"></span><div id="contact-links"></div></div>
+          <div class="visit-card-bottom"><span data-i18n="visitCardBottom"></span><span aria-hidden="true">↗</span></div>
+        </div>
+      </div>
+    </section>
+
+    <p class="booking-status container" id="booking-status" role="status" aria-live="polite" hidden></p>
+  </main>
+
+  <footer class="footer" data-header-theme="dark">
+    <div class="container"><div class="footer-top"><div class="footer-brand"><span class="footer-logo"><span data-business-name></span><span class="footer-dot" aria-hidden="true">.</span></span><span data-business-tagline></span></div><div class="footer-right"><a href="#story" data-i18n="navAbout"></a><a href="#services" data-i18n="navServices"></a><a href="#gallery" data-i18n="navGallery"></a><a href="#visit" data-i18n="navVisit"></a></div></div><div class="footer-divider"></div><div class="footer-bottom"><span id="footer-demo-label" data-business-demo hidden></span><span>© <span data-copyright-year></span> <span data-business-name></span></span><a href="#top" data-i18n="backTop"></a></div></div>
+  </footer>
+
+  <!-- VYB-COMPONENT:booking-modal -->
+
+  <!-- VYB-COMPONENT:lightbox -->
+</body>
+</html>

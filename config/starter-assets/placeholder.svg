@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-label="Imagen por completar">
+<rect width="1600" height="1000" fill="#222420"/>
+<path d="M0 1000 800 0 1600 1000M0 0 800 1000 1600 0" fill="none" stroke="#c9ad7a" stroke-width="2" opacity=".25"/>
+<rect x="500" y="340" width="600" height="320" fill="#11120f" stroke="#c9ad7a"/>
+<text x="800" y="480" text-anchor="middle" fill="#f0ede6" font-family="sans-serif" font-size="34">IMAGEN POR COMPLETAR</text>
+<text x="800" y="545" text-anchor="middle" fill="#c9ad7a" font-family="sans-serif" font-size="22">REPLACE WITH A BUSINESS PHOTO</text>
+</svg>
